@@ -345,7 +345,7 @@ export default function Component() {
                 <Table>
                   <TableHeader>
                     <TableRow>
-                      <TableHead className="w-[400px]">About</TableHead>
+                      <TableHead className="w-[600px]">App</TableHead>
                       <TableHead>Status</TableHead>
                       <TableHead>Version</TableHead>
                       <TableHead className="text-right">Actions</TableHead>
