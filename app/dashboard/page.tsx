@@ -5,7 +5,7 @@ import Link from "next/link";
 import {
   Bell,
   ChevronDown,
-  Edit2,
+  Copy,
   Home,
   MoreVertical,
   Search,
@@ -229,7 +229,7 @@ export default function Component() {
               <div className="grid gap-4 md:grid-cols-3">
                 <div className="rounded-lg border bg-card p-6">
                   <div className="flex items-center justify-between">
-                    <div className="text-sm font-medium">Total Customers</div>
+                    <div className="text-sm font-medium">Total Apps</div>
                     <DropdownMenu>
                       <DropdownMenuTrigger asChild>
                         <Button size="icon" variant="ghost">
@@ -345,7 +345,7 @@ export default function Component() {
                 <Table>
                   <TableHeader>
                     <TableRow>
-                      <TableHead className="w-[300px]">About</TableHead>
+                      <TableHead className="w-[400px]">About</TableHead>
                       <TableHead>Status</TableHead>
                       <TableHead>Version</TableHead>
                       <TableHead className="text-right">Actions</TableHead>
@@ -372,8 +372,8 @@ export default function Component() {
                       <TableCell>2.7</TableCell>
                       <TableCell className="text-right">
                         <Button size="icon" variant="ghost">
-                          <Edit2 className="h-4 w-4" />
-                          <span className="sr-only">Edit</span>
+                          <Copy className="h-4 w-4" />
+                          <span className="sr-only">Copy</span>
                         </Button>
                       </TableCell>
                     </TableRow>
@@ -395,8 +395,8 @@ export default function Component() {
                       <TableCell>2.7</TableCell>
                       <TableCell className="text-right">
                         <Button size="icon" variant="ghost">
-                          <Edit2 className="h-4 w-4" />
-                          <span className="sr-only">Edit</span>
+                          <Copy className="h-4 w-4" />
+                          <span className="sr-only">Copy</span>
                         </Button>
                       </TableCell>
                     </TableRow>
@@ -418,8 +418,8 @@ export default function Component() {
                       <TableCell>3.1</TableCell>
                       <TableCell className="text-right">
                         <Button size="icon" variant="ghost">
-                          <Edit2 className="h-4 w-4" />
-                          <span className="sr-only">Edit</span>
+                          <Copy className="h-4 w-4" />
+                          <span className="sr-only">Copy</span>
                         </Button>
                       </TableCell>
                     </TableRow>
@@ -441,8 +441,8 @@ export default function Component() {
                       <TableCell>4.2</TableCell>
                       <TableCell className="text-right">
                         <Button size="icon" variant="ghost">
-                          <Edit2 className="h-4 w-4" />
-                          <span className="sr-only">Edit</span>
+                          <Copy className="h-4 w-4" />
+                          <span className="sr-only">Copy</span>
                         </Button>
                       </TableCell>
                     </TableRow>
@@ -466,8 +466,8 @@ export default function Component() {
                       <TableCell>5.1</TableCell>
                       <TableCell className="text-right">
                         <Button size="icon" variant="ghost">
-                          <Edit2 className="h-4 w-4" />
-                          <span className="sr-only">Edit</span>
+                          <Copy className="h-4 w-4" />
+                          <span className="sr-only">Copy</span>
                         </Button>
                       </TableCell>
                     </TableRow>
@@ -489,8 +489,8 @@ export default function Component() {
                       <TableCell>2.3</TableCell>
                       <TableCell className="text-right">
                         <Button size="icon" variant="ghost">
-                          <Edit2 className="h-4 w-4" />
-                          <span className="sr-only">Edit</span>
+                          <Copy className="h-4 w-4" />
+                          <span className="sr-only">Copy</span>
                         </Button>
                       </TableCell>
                     </TableRow>
